@@ -11,7 +11,7 @@ short_description: LLM inference engine with live internals — KV cache, batchi
 
 # Chimera — backend
 
-The inference engine behind **[chimera.komalpreet.me](https://chimera.komalpreet.me)**.
+The inference engine behind **[Chimera](https://github.com/Anket11/Chimera)**.
 
 A GPT-2 built from scratch in PyTorch — hand-written multi-head causal attention, KV
 cache, continuous-batching scheduler, PagedAttention block allocator, and speculative
@@ -19,7 +19,7 @@ decoding — exposed over FastAPI + WebSockets so the frontend can stream not ju
 but the engine's *internals*: per-token latency, KV-cache growth, block allocation, and
 scheduler decisions.
 
-Source: **https://github.com/Komalpreet2809/Chimera**
+Source: **https://github.com/Anket11/Chimera**
 
 ## Endpoints
 

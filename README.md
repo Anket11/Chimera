@@ -1,5 +1,7 @@
 # Chimera
 
+Source: [github.com/Anket11/Chimera](https://github.com/Anket11/Chimera)
+
 **An LLM inference engine you can see inside.**
 
 Chimera is a from-scratch LLM serving engine — hand-written transformer, KV cache,

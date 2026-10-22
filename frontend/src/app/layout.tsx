@@ -61,7 +61,7 @@ export default function RootLayout({
             <Nav />
 
             <a
-              href="https://github.com/Komalpreet2809/Chimera"
+              href="https://github.com/Anket11/Chimera"
               target="_blank"
               rel="noreferrer"
               className="ml-auto rounded-full bg-[var(--text)] px-4 py-2 text-[13px] font-medium text-white transition-opacity hover:opacity-85"
@@ -116,7 +116,7 @@ export default function RootLayout({
               </p>
             </div>
             <a
-              href="https://github.com/Komalpreet2809/Chimera"
+              href="https://github.com/Anket11/Chimera"
               target="_blank"
               rel="noreferrer"
               className="rounded-full bg-[var(--amber)] px-5 py-2.5 text-[13px] font-medium text-[var(--text)] transition-opacity hover:opacity-90"

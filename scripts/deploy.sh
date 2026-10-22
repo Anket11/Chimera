@@ -98,16 +98,7 @@ say "Done"
 cat <<EOF
 
   Backend   $SPACE_URL
-  Frontend  https://chimera.komalpreet.me
-
-  If the custom domain doesn't resolve yet, add this DNS record in Cloudflare:
-
-      Type   A
-      Name   chimera
-      Value  76.76.21.21
-      Proxy  DNS only  (grey cloud, NOT orange)
-
-  The proxy must be off — Cloudflare's proxy in front of Vercel breaks
-  certificate issuance for the domain.
+  Frontend  Use the Vercel deployment URL printed above.
+  Source    https://github.com/Anket11/Chimera
 
 EOF

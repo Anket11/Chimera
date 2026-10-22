@@ -38,12 +38,12 @@ from ..telemetry.metrics import MetricsCollector
 
 app = FastAPI(title="Chimera", description="LLM inference, made visible")
 
-# The deployed backend is a public read-only demo API, but there's no reason to
-# let arbitrary origins call it — pin to the real frontends plus local dev.
+# Allow the Vercel frontend and local development origins.
 _ALLOWED = [
-    "https://chimera.komalpreet.me",
     "http://localhost:3000",
     "http://127.0.0.1:3000",
+    "http://localhost:3001",
+    "http://127.0.0.1:3001",
 ]
 app.add_middleware(
     CORSMiddleware,
